@@ -39,3 +39,16 @@ Deploy the contract on a compatible Ethereum network (e.g., Rinkeby, Ropsten, or
 You can test the contract functionality using tools like Remix IDE, Truffle, or write automated tests using frameworks like Truffle or Hardhat.
 
 
+# AaModerateStorageFactory Contract
+
+The AaModerateStorageFactory contract is a Solidity smart contract that allows the deployment and interaction with instances of the Storage contract. The AaModerateStorageFactory contract provides an interface for creating, storing, and retrieving data using the Storage contract's functions.
+
+# Usage
+1.  Deploy the AaModerateStorageFactory contract on an Ethereum-compatible network.
+
+2. Interacting with Storage: Import the Storage contract and use its functions through the AaModerateStorageFactory contract interface.
+
+3. **Storing and Retrieving Data**: Utilize the provided functions to interact with the deployed Storage contracts, including setting favorite numbers, adding people, and retrieving data.
+
+
+
