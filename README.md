@@ -50,5 +50,20 @@ The AaModerateStorageFactory contract is a Solidity smart contract that allows t
 
 3. **Storing and Retrieving Data**: Utilize the provided functions to interact with the deployed Storage contracts, including setting favorite numbers, adding people, and retrieving data.
 
+   # ExtraStorage Contract
+
+The InheritanceOverrideVirtualinSolidityStorage contract is a Solidity smart contract that extends the functionality of the Storage contract by adding extra logic to the store function.
+
+# Functionality
+
+1. **Inheritance**: InheritanceOverrideVirtualinSolidityStorage inherits from the Storage contract, allowing it to access all the functions and state variables defined in Storage.
+
+2. **Override**: The store function in InheritanceOverrideVirtualinSolidityStorage overrides the implementation of the store function inherited from Storage, enabling customization of the store function's behavior.
+
+3. **Super Keyword**: Inside the overridden store function, the super keyword is used to call the store function from the parent AdvancedStorage contract, preserving the original functionality while executing additional logic.
+
+
+
+
 
 
